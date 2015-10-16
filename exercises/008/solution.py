@@ -1,3 +1,3 @@
-list = ['H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', ' ', '!']
+list = ["H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d", " ", "!"]
 for bleu in list:
     print(bleu)
