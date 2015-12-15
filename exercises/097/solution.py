@@ -6,8 +6,6 @@ def love_meet(bob, alice):
         for j in set(alice):
             if i == j:
                 print(i)
-
-
 banane = []
 def affair_meet(bob, alice, silvester):
     for i in set(bob):
