@@ -1,12 +1,18 @@
 bob = ['II', 'IV', 'II', 'XIX', 'XV', 'IV', 'II']
 alice = ['IV', 'III', 'II', 'XX', 'II', 'XX']
 silvester = ['XVIII', 'XIX', 'III', 'I', 'III', 'XVIII']
+
+
 def love_meet(bob, alice):
     for i in set(bob):
         for j in set(alice):
             if i == j:
                 print(i)
+
+
 banane = []
+
+
 def affair_meet(bob, alice, silvester):
     for i in set(bob):
         for j in set(alice):
