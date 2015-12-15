@@ -8,8 +8,6 @@ def love_meet(bob, alice):
                 print(i)
 
 
-
-
 banane = []
 def affair_meet(bob, alice, silvester):
     for i in set(bob):
@@ -20,5 +18,4 @@ def affair_meet(bob, alice, silvester):
                         if k not in banane:
                             banane.append(k)
                             print(k)
-
 affair_meet(bob, alice, silvester)
