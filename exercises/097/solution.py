@@ -10,6 +10,9 @@ def love_meet(bob, alice):
                 print(i)
 
 
+love_meet(bob, alice)
+
+
 banane = []
 
 
@@ -22,4 +25,6 @@ def affair_meet(bob, alice, silvester):
                         if k not in banane:
                             banane.append(k)
                             print(k)
+
+
 affair_meet(bob, alice, silvester)
